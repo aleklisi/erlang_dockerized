@@ -1,0 +1,17 @@
+{application, hello_docker,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {hello_docker_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    ranch,
+    cowboy
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
